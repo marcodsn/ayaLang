@@ -1,0 +1,6 @@
+python-telegram-bot
+openai
+kokoro
+soundfile
+misaki[ja]
+misaki[en]

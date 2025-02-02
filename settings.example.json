@@ -1,0 +1,12 @@
+{
+    "openai": {
+        "base_url": "http://localhost:5000/v1/",
+        "api_key": "YOUR_OPENAI_API_KEY",
+        "engine": "CohereForAI_aya-expanse-8b-exl2-6.0bpw"
+    },
+    "telegram": {
+        "bot_token": "YOUR_BOT_TOKEN",
+        "whitelist": false,
+        "chat_ids": ["YOUR_WHITELISTED_CHAT_IDs"]
+    }
+}
