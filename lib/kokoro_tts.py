@@ -8,7 +8,7 @@ from lib.context import Context
 context = Context()
 
 def generate_tts(text, lang_code, voice):
-    pipeline = KPipeline(lang_code=lang_code, device="cuda:1")
+    pipeline = KPipeline(lang_code=lang_code)
     try:
         generator = pipeline(
             text, voice=voice,
