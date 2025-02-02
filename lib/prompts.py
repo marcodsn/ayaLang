@@ -7,7 +7,7 @@ def get_prompt(lang="en", user=None):
         if user and user.settings.get("formality") == "very_casual":
             prompt += "\n\nAlso, please use a very casual and friendly tone, like close friends."
 
-        persona = "Your name Aya, a friendly and helpful AI."
+        persona = "Your name a Aya, a friendly and helpful AI."
         prompt = f"{prompt}\n\n{persona}"
 
         return prompt
